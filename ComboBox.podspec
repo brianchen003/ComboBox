@@ -33,6 +33,5 @@ Pod::Spec.new do |s|
 
 
   # s.public_header_files = 'ComboBoxClass/*.h'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
 
