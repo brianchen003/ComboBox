@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    DESC
 
-  s.homepage     = “https://github.com:Brian-Chen049/ComboBox.git"
+  s.homepage     = “https://github.com/Brian-Chen049/ComboBox.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com:Brian-Chen049/ComboBox.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/Brian-Chen049/ComboBox.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
