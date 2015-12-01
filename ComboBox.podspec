@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "ComboBox"
   s.version      = "0.0.1"
-  s.summary      = "A short description of ComboBox."
+  s.summary      = “ComboBox for TableView”
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
                    DESC
 
-  s.homepage     = "http://EXAMPLE/ComboBox"
+  s.homepage     = “https://github.com:Brian-Chen049/ComboBox.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,9 +52,9 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "chenbrian" => "brian.chen@gogotech.hk" }
-  # Or just: s.author    = "chenbrian"
-  # s.authors            = { "chenbrian" => "brian.chen@gogotech.hk" }
+  s.author             = { “Brian Chen“ => "brian.chen@gogotech.hk" }
+  # Or just: s.author    = "Brian Chen"
+  # s.authors            = { "Brian Chen" => "brian.chen@gogotech.hk" }
   # s.social_media_url   = "http://twitter.com/chenbrian"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -64,7 +64,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  # s.platform     = :ios, “7.0”
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/ComboBox.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com:Brian-Chen049/ComboBox.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,10 +90,9 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = “ComboBoxClass/*”"
 
-  # s.public_header_files = "Classes/**/*.h"
+  # s.public_header_files = "ComboBoxClass/*.h”
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -116,8 +115,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  # s.frameworks = 'QuartzCore', 'UIKit', 'Foundation', 'CoreGraphics'
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
@@ -132,6 +130,5 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
 
 end
