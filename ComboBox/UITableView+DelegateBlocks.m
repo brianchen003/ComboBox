@@ -13,7 +13,7 @@ static NSString* UITableViewDelegateBlocksKey = @"UITableViewDelegateBlocksKey";
 @implementation UITableView (DelegateBlocks)
 
 -(id)useBlocksForDelegate {
-    UITableViewDelegateBlocks* delegate = [[[UITableViewDelegateBlocks alloc] init] autorelease];
+    UITableViewDelegateBlocks* delegate = [[UITableViewDelegateBlocks alloc] init];
     objc_setAssociatedObject (self, &UITableViewDelegateBlocksKey, delegate, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     self.delegate = delegate;
     return self;

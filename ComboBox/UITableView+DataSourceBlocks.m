@@ -13,7 +13,7 @@ static NSString* UITableViewDataSourceBlocksKey = @"UITableViewDataSourceBlocksK
 @implementation UITableView (DataSourceBlocks)
 
 -(id)useBlocksForDataSource {
-    UITableViewDataSourceBlocks* dataSource = [[[UITableViewDataSourceBlocks alloc] init] autorelease];
+    UITableViewDataSourceBlocks* dataSource = [[UITableViewDataSourceBlocks alloc] init];
     objc_setAssociatedObject (self, &UITableViewDataSourceBlocksKey, dataSource, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     self.dataSource = dataSource;
     return self;
