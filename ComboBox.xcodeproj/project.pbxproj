@@ -23,9 +23,9 @@
 		0750DE6517963A04001DD5E8 /* SelectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0750DE6417963A04001DD5E8 /* SelectionCell.m */; };
 		0750DE6717963A26001DD5E8 /* SelectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0750DE6617963A25001DD5E8 /* SelectionCell.xib */; };
 		0750DE6917963D49001DD5E8 /* dropup.png in Resources */ = {isa = PBXBuildFile; fileRef = 0750DE6817963D49001DD5E8 /* dropup.png */; };
-		D35EC6271C0DB36F004ECCC1 /* TableViewWithBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = D35EC6221C0DB36F004ECCC1 /* TableViewWithBlock.m */; };
-		D35EC6281C0DB36F004ECCC1 /* UITableView+DataSourceBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = D35EC6241C0DB36F004ECCC1 /* UITableView+DataSourceBlocks.m */; };
-		D35EC6291C0DB36F004ECCC1 /* UITableView+DelegateBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = D35EC6261C0DB36F004ECCC1 /* UITableView+DelegateBlocks.m */; };
+		D37BE30E1C0ECF85001B5541 /* TableViewWithBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = D37BE3091C0ECF85001B5541 /* TableViewWithBlock.m */; };
+		D37BE30F1C0ECF85001B5541 /* UITableView+DataSourceBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = D37BE30B1C0ECF85001B5541 /* UITableView+DataSourceBlocks.m */; };
+		D37BE3101C0ECF85001B5541 /* UITableView+DelegateBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = D37BE30D1C0ECF85001B5541 /* UITableView+DelegateBlocks.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,12 +51,12 @@
 		0750DE6417963A04001DD5E8 /* SelectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionCell.m; sourceTree = "<group>"; };
 		0750DE6617963A25001DD5E8 /* SelectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectionCell.xib; sourceTree = "<group>"; };
 		0750DE6817963D49001DD5E8 /* dropup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropup.png; sourceTree = "<group>"; };
-		D35EC6211C0DB36F004ECCC1 /* TableViewWithBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewWithBlock.h; sourceTree = "<group>"; };
-		D35EC6221C0DB36F004ECCC1 /* TableViewWithBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewWithBlock.m; sourceTree = "<group>"; };
-		D35EC6231C0DB36F004ECCC1 /* UITableView+DataSourceBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DataSourceBlocks.h"; sourceTree = "<group>"; };
-		D35EC6241C0DB36F004ECCC1 /* UITableView+DataSourceBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DataSourceBlocks.m"; sourceTree = "<group>"; };
-		D35EC6251C0DB36F004ECCC1 /* UITableView+DelegateBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DelegateBlocks.h"; sourceTree = "<group>"; };
-		D35EC6261C0DB36F004ECCC1 /* UITableView+DelegateBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DelegateBlocks.m"; sourceTree = "<group>"; };
+		D37BE3081C0ECF85001B5541 /* TableViewWithBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewWithBlock.h; sourceTree = "<group>"; };
+		D37BE3091C0ECF85001B5541 /* TableViewWithBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewWithBlock.m; sourceTree = "<group>"; };
+		D37BE30A1C0ECF85001B5541 /* UITableView+DataSourceBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DataSourceBlocks.h"; sourceTree = "<group>"; };
+		D37BE30B1C0ECF85001B5541 /* UITableView+DataSourceBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DataSourceBlocks.m"; sourceTree = "<group>"; };
+		D37BE30C1C0ECF85001B5541 /* UITableView+DelegateBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+DelegateBlocks.h"; sourceTree = "<group>"; };
+		D37BE30D1C0ECF85001B5541 /* UITableView+DelegateBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+DelegateBlocks.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +77,7 @@
 		0750DE2B17961F88001DD5E8 = {
 			isa = PBXGroup;
 			children = (
+				D37BE3071C0ECF85001B5541 /* ComboBoxClass */,
 				0750DE3D17961F88001DD5E8 /* ComboBox */,
 				0750DE3617961F88001DD5E8 /* Frameworks */,
 				0750DE3517961F88001DD5E8 /* Products */,
@@ -105,7 +106,6 @@
 		0750DE3D17961F88001DD5E8 /* ComboBox */ = {
 			isa = PBXGroup;
 			children = (
-				D35EC62A1C0DB384004ECCC1 /* ComboBoxClass */,
 				0750DE4617961F88001DD5E8 /* AppDelegate.h */,
 				0750DE4717961F88001DD5E8 /* AppDelegate.m */,
 				0750DE5417961FB7001DD5E8 /* MainViewController.h */,
@@ -135,17 +135,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D35EC62A1C0DB384004ECCC1 /* ComboBoxClass */ = {
+		D37BE3071C0ECF85001B5541 /* ComboBoxClass */ = {
 			isa = PBXGroup;
 			children = (
-				D35EC6211C0DB36F004ECCC1 /* TableViewWithBlock.h */,
-				D35EC6221C0DB36F004ECCC1 /* TableViewWithBlock.m */,
-				D35EC6231C0DB36F004ECCC1 /* UITableView+DataSourceBlocks.h */,
-				D35EC6241C0DB36F004ECCC1 /* UITableView+DataSourceBlocks.m */,
-				D35EC6251C0DB36F004ECCC1 /* UITableView+DelegateBlocks.h */,
-				D35EC6261C0DB36F004ECCC1 /* UITableView+DelegateBlocks.m */,
+				D37BE3081C0ECF85001B5541 /* TableViewWithBlock.h */,
+				D37BE3091C0ECF85001B5541 /* TableViewWithBlock.m */,
+				D37BE30A1C0ECF85001B5541 /* UITableView+DataSourceBlocks.h */,
+				D37BE30B1C0ECF85001B5541 /* UITableView+DataSourceBlocks.m */,
+				D37BE30C1C0ECF85001B5541 /* UITableView+DelegateBlocks.h */,
+				D37BE30D1C0ECF85001B5541 /* UITableView+DelegateBlocks.m */,
 			);
-			name = ComboBoxClass;
+			path = ComboBoxClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,9 +217,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D35EC6291C0DB36F004ECCC1 /* UITableView+DelegateBlocks.m in Sources */,
-				D35EC6281C0DB36F004ECCC1 /* UITableView+DataSourceBlocks.m in Sources */,
-				D35EC6271C0DB36F004ECCC1 /* TableViewWithBlock.m in Sources */,
+				D37BE3101C0ECF85001B5541 /* UITableView+DelegateBlocks.m in Sources */,
+				D37BE30F1C0ECF85001B5541 /* UITableView+DataSourceBlocks.m in Sources */,
+				D37BE30E1C0ECF85001B5541 /* TableViewWithBlock.m in Sources */,
 				0750DE4417961F88001DD5E8 /* main.m in Sources */,
 				0750DE4817961F88001DD5E8 /* AppDelegate.m in Sources */,
 				0750DE5717961FB7001DD5E8 /* MainViewController.m in Sources */,
