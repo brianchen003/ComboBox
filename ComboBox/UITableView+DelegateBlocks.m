@@ -112,113 +112,113 @@ static NSString* UITableViewDelegateBlocksKey = @"UITableViewDelegateBlocksKey";
 -(void)tableView:(UITableView*)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath*)indexPath  {
     UITableViewAccessoryButtonTappedForRowWithIndexPathBlock block = [self.accessoryButtonTappedForRowWithIndexPathBlock copy];
     block(tableView, indexPath);
-    [block release];
+    
 }
 
 -(void)tableView:(UITableView*)tableView didDeselectRowAtIndexPath:(NSIndexPath*)indexPath  {
     UITableViewDidDeselectRowAtIndexPathBlock block = [self.didDeselectRowAtIndexPathBlock copy];
     block(tableView, indexPath);
-    [block release];
+    
 }
 
 -(void)tableView:(UITableView*)tableView didEndEditingRowAtIndexPath:(NSIndexPath*)indexPath  {
     UITableViewDidEndEditingRowAtIndexPathBlock block = [self.didEndEditingRowAtIndexPathBlock copy];
     block(tableView, indexPath);
-    [block release];
+    
 }
 
 -(void)tableView:(UITableView*)tableView didSelectRowAtIndexPath:(NSIndexPath*)indexPath  {
     UITableViewDidSelectRowAtIndexPathBlock block = [self.didSelectRowAtIndexPathBlock copy];
     block(tableView, indexPath);
-    [block release];
+    
 }
 
 -(UITableViewCellEditingStyle)tableView:(UITableView*)tableView editingStyleForRowAtIndexPath:(NSIndexPath*)indexPath  {
     UITableViewEditingStyleForRowAtIndexPathBlock block = [self.editingStyleForRowAtIndexPathBlock copy];
     UITableViewCellEditingStyle result = block(tableView, indexPath);
-    [block release];
+    
     return result;
 }
 
 -(CGFloat)tableView:(UITableView*)tableView heightForFooterInSection:(NSInteger)section  {
     UITableViewHeightForFooterInSectionBlock block = [self.heightForFooterInSectionBlock copy];
     CGFloat result = block(tableView, section);
-    [block release];
+    
     return result;
 }
 
 -(CGFloat)tableView:(UITableView*)tableView heightForHeaderInSection:(NSInteger)section  {
     UITableViewHeightForHeaderInSectionBlock block = [self.heightForHeaderInSectionBlock copy];
     CGFloat result = block(tableView, section);
-    [block release];
+    
     return result;
 }
 
 -(CGFloat)tableView:(UITableView*)tableView heightForRowAtIndexPath:(NSIndexPath*)indexPath  {
     UITableViewHeightForRowAtIndexPathBlock block = [self.heightForRowAtIndexPathBlock copy];
     CGFloat result = block(tableView, indexPath);
-    [block release];
+    
     return result;
 }
 
 -(BOOL)tableView:(UITableView*)tableView shouldIndentWhileEditingRowAtIndexPath:(NSIndexPath*)indexPath  {
     UITableViewShouldIndentWhileEditingRowAtIndexPathBlock block = [self.shouldIndentWhileEditingRowAtIndexPathBlock copy];
     BOOL result = block(tableView, indexPath);
-    [block release];
+    
     return result;
 }
 
 -(NSIndexPath*)tableView:(UITableView*)tableView targetIndexPathForMoveFromRowAtIndexPath:(NSIndexPath*)sourceIndexPath toProposedIndexPath:(NSIndexPath*)proposedDestinationIndexPath  {
     UITableViewTargetIndexPathForMoveFromRowAtIndexPathBlock block = [self.targetIndexPathForMoveFromRowAtIndexPathBlock copy];
     NSIndexPath* result = block(tableView, sourceIndexPath, proposedDestinationIndexPath);
-    [block release];
+    
     return result;
 }
 
 -(NSString*)tableView:(UITableView*)tableView titleForDeleteConfirmationButtonForRowAtIndexPath:(NSIndexPath*)indexPath  {
     UITableViewTitleForDeleteConfirmationButtonForRowAtIndexPathBlock block = [self.titleForDeleteConfirmationButtonForRowAtIndexPathBlock copy];
     NSString* result = block(tableView, indexPath);
-    [block release];
+    
     return result;
 }
 
 -(UIView*)tableView:(UITableView*)tableView viewForFooterInSection:(NSInteger)section  {
     UITableViewViewForFooterInSectionBlock block = [self.viewForFooterInSectionBlock copy];
     UIView* result = block(tableView, section);
-    [block release];
+    
     return result;
 }
 
 -(UIView*)tableView:(UITableView*)tableView viewForHeaderInSection:(NSInteger)section  {
     UITableViewViewForHeaderInSectionBlock block = [self.viewForHeaderInSectionBlock copy];
     UIView* result = block(tableView, section);
-    [block release];
+    
     return result;
 }
 
 -(void)tableView:(UITableView*)tableView willBeginEditingRowAtIndexPath:(NSIndexPath*)indexPath  {
     UITableViewWillBeginEditingRowAtIndexPathBlock block = [self.willBeginEditingRowAtIndexPathBlock copy];
     block(tableView, indexPath);
-    [block release];
+    
 }
 
 -(NSIndexPath*)tableView:(UITableView*)tableView willDeselectRowAtIndexPath:(NSIndexPath*)indexPath  {
     UITableViewWillDeselectRowAtIndexPathBlock block = [self.willDeselectRowAtIndexPathBlock copy];
     NSIndexPath* result = block(tableView, indexPath);
-    [block release];
+    
     return result;
 }
 
 -(void)tableView:(UITableView*)tableView willDisplayCell:(UITableViewCell*)cell forRowAtIndexPath:(NSIndexPath*)indexPath  {
     UITableViewWillDisplayCellBlock block = [self.willDisplayCellBlock copy];
     block(tableView, cell, indexPath);
-    [block release];
+    
 }
 
 -(NSIndexPath*)tableView:(UITableView*)tableView willSelectRowAtIndexPath:(NSIndexPath*)indexPath  {
     UITableViewWillSelectRowAtIndexPathBlock block = [self.willSelectRowAtIndexPathBlock copy];
     NSIndexPath* result = block(tableView, indexPath);
-    [block release];
+    
     return result;
 }
 

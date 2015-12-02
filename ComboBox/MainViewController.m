@@ -58,13 +58,6 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)dealloc {
-    
-    [_tb release];
-    [_inputTextField release];
-    [_openButton release];
-    [super dealloc];
-}
 - (IBAction)changeOpenStatus:(id)sender {
    
     if (isOpened) {

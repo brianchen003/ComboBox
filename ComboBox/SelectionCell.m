@@ -26,8 +26,4 @@
     // Configure the view for the selected state
 }
 
-- (void)dealloc {
-    [_lb release];
-    [super dealloc];
-}
 @end
