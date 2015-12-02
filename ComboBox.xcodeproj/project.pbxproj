@@ -298,6 +298,7 @@
 		0750DE5217961F88001DD5E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ComboBox/ComboBox-Prefix.pch";
 				INFOPLIST_FILE = "ComboBox/ComboBox-Info.plist";
@@ -310,6 +311,7 @@
 		0750DE5317961F88001DD5E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ComboBox/ComboBox-Prefix.pch";
 				INFOPLIST_FILE = "ComboBox/ComboBox-Info.plist";
